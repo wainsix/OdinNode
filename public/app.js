@@ -28,6 +28,14 @@ const pindiv = document.createElement("p");
 content.classList.add("pindiv");
 pindiv.textContent = "ME TOO!";
 
+const btn = document.querySelector("#btn");
+btn.onclick = () => alert("Hello World");
+
+const btn2 = document.querySelector("#btn2");
+btn.addEventListener("click", () => {
+  alert("Hello World");
+});
+
 container.appendChild(blueh);
 container.appendChild(redp);
 container.appendChild(content);
